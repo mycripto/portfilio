@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', ;  
+}
+h1{
+    color: aqua;
+    font-size: 50px;
+}
+
+.name_highlight{
+    color: orange;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 100%;
+    padding-top: 35%;
+}
