@@ -32,15 +32,52 @@ section{
 }
 .link-button{
     text-decoration: none;
-   background-color: rgb(216, 156, 44);
+   background-color: rgb(216, 156, 44);   
    padding: 10px 15px;
    border-radius: 10px;
    font-weight: 800;
    color: white;
+   border-image: linear-gradient(lightSalmon, tomato);
 }
 .dream{
     background-image: url("/images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+
+}
+p{
+    color: darkgray;
+}
+.orange-highlight{
+    color: orange;
+}
+.single-experience{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+
+}
+.expeience{
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+   
+}
+#left-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(lightSalmon, tomato);
+    border-image-slice:1 ;
+}
+#right-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, rgb(9, 187, 241));
+    border-image-slice:1 ;
+}
+#footer{
+    text-align: center;
+}
+#exp-h2{
+    padding-left: 50px;
+    color: orangered
 
 }
